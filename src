@@ -1,0 +1,43 @@
+import random
+
+SelectCardpack01 = random.randint(1,6)
+SelectCardpack02 = random.randint(1,6)
+
+while (SelectCardpack01 == SelectCardpack02):
+  SelectCardpack01 = random.randint(1,6)
+  SelectCardPack02 = random.randint(1,6)
+
+SelectCharacter = random.randint(1,3)
+
+if SelectCharacter == 1:
+  print ("リリス")
+elif SelectCharacter == 2:
+  print ("ヴァリー")
+elif SelectCharacter == 3:
+  print ("シュガー")
+
+if SelectCardpack01 == 1:
+  print ("ズートロピカル")
+elif SelectCardpack01 == 2:
+  print ("カードダンス")
+elif SelectCardpack01 == 3:
+  print ("ファクトリエ")
+elif SelectCardpack01 == 4:
+  print ("どうぶつの村")
+elif SelectCardpack01 == 5:
+  print ("星の祝宴")
+elif SelectCardpack01 == 6:
+  print ("Mr.オールマイティ")
+
+if SelectCardpack02 == 1:
+  print ("ズートロピカル")
+elif SelectCardpack02 == 2:
+  print ("カードダンス")
+elif SelectCardpack02 == 3:
+  print ("ファクトリエ")
+elif SelectCardpack02 == 4:
+  print ("どうぶつの村")
+elif SelectCardpack02 == 5:
+  print ("星の祝宴")
+elif SelectCardpack02 == 6:
+  print ("Mr.オールマイティ")
