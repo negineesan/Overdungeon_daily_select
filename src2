@@ -1,0 +1,6 @@
+import random
+
+CharacterData = ["リリス","ヴァリー","シュガー"]
+CardpackData = ["ズートロピカル","カードダンス","ファクトリエ","どうぶつの村","星の祝宴","Mr.オールマイティ"]
+
+print (random.choice(CharacterData),random.sample(CardpackData,2))
